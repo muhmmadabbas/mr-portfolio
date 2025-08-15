@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my potfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">Portfolio</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Education & Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav> --><nav class="navbar">
+        <div class="navbar-container">
+            <a href="index2.html" class="navbar-logo">Mr Coder</a>
+            <button class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="navbar-menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#eduction-section">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+              
+            </ul>
+    </nav>
+    </header>
+        <main>
+            <section id="home" class="Home">
+                <div class="home-content">
+                    <div class="home-details">
+                    <h2 class="home-title">Hello! it's me,<br><span>Mr.Abbas</span> </h2> 
+                    <br>
+                    <h4 class="subtitle">"Bringing designs to life with clean, responsive, 
+                        and modern frontend development."</h4>
+                        <button><a href="#contact">contact me</a></button>
+                        <button><a href="#about">about me</a></button>
+                    </div>
+                    <div class="home-image-wrapper">
+                    <img src="home.jpg" alt="home" class="home-image">        
+                    </div>
+
+                </div>
+                 
+            </section>
+           
+            <!-- about section -->
+            <section id="about" class="about">
+                <div class="about-content">
+                    <div class="about-details">
+                    <h2 class="about-title">About Me!</h2>
+                    <br>
+                    <p class="description">Welcome to My Portfolio  
+                        I'm a creative and detail-oriented Frontend Developer with a passion for building clean,
+                         responsive, and user-friendly web interfaces. Using HTML, CSS, JavaScript, and modern frameworks 
+                         like React and Bootstrap, I craft seamless digital experiences
+                         that not only look great but also perform smoothly across all devices.
+                         Explore my projects, see my skills in action, and let's build something great together.
+            </p>
+        </div>
+        <div class="about-image-wrpper">
+        <img src="home.jpg" alt="about" class="about-iamge">
+    </div>
+                </div>
+
+            </section>
+            <!-- Education section -->
+            <section  id="eduction-section" class="eduction-section">
+                <div class="details">
+                    <div class="achivements">
+                        <h1 class="title">My Education</h1>
+                        <h3 class="subtitle">I am doing inter in CS.
+                            and i have learned the frontend. 
+                            and make them tesponsive at different devices.
+                            now foucs on backend and full stack development
+                             and app development.
+                        </h3>
+                    </div>
+                </div>
+            <div class="skill-section">
+                    <h1 class="title">My Skills</h1>
+                    <div class="skill-details">
+                        <ul class="skill-place">
+                        <li class="skill-content">
+                        <img src="pic (2).jpg" alt="ui/ux" class="my-skills">
+                        <h3 class="about-skill">A great ui/ux designer</h3>
+                    </li> <li class="skill-content">
+                        <img src="pic (1).jpg" alt="ui/ux" class="my-skills">
+                        <h3 class="about-skill">great responsive and smooth website</h3>
+                    </li> <li class="skill-content">
+                        <img src="pic (3).jpg" alt="ui/ux" class="my-skills">
+                        <h3 class="about-skill">work at different framework</h3>
+                    </li> <li class="skill-content">
+                        <img src="pic (4).jpg" alt="ui/ux" class="my-skills">
+                        <h3 class="about-skill">a great frontend Developer</h3>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        </main>
+        <!-- contact section -->
+        <section id="contact" class="contact">
+            <div class="contact-list">
+              <h3 class="contact-info">Contact Us</h3>
+           
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Submit">
+              </form>
+              <div class="links">
+                <ul class="list">
+                    <a href="#" class="soical-link-list"><i class="fa-brands
+                        fa-facebook"></i></a>
+                        <a href="#" class="soical-link-list"><i class="fa-brands
+                            fa-tiktok"></i></a>
+                            <a href="#" class="soical-link-list"><i class="fa-brands
+                                fa-linkdin"></i></a>
+                </ul>
+              </div>
+        
+              <style>
+                form {
+            max-width: 300px;
+            padding: 10px;
+            background-color: #eeeaea;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+          
+          label {
+            display: block;
+            text-align: center;
+            margin-bottom: 9px;
+            color: #3e8e41;
+          }
+          
+          input[type="text"], input[type="email"] {
+            width: auto;
+            margin-left: 30px;
+            height: 28px;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+          }
+          
+          textarea {
+            width: 75%;
+            height: 100px;
+            margin-bottom: 20px;
+            padding: 10px;
+            margin-left: 15px;
+            border: 1px solid #ccc;
+          }
+          
+          input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            margin: 8px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          
+          input[type="submit"]:hover {
+            background-color: #3e8e41;
+          }
+              </style>
+             </div>
+            </section>
+        
+
+
+    
+</body>
+<script src="script.js"></script>
+</html>
